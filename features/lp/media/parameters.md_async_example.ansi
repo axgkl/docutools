@@ -1,0 +1,13 @@
+runner@fv-az135-986:~/work/docutools/docutools$ ls -lt /usr/bin | head -n 12                  
+total 1376780       
+lrwxrwxrwx 1 root        root               42 Sep 29 11:21 go -> /opt/hostedtoolcache/go/1.15.15/x64/bin/go            
+lrwxrwxrwx 1 root        root               45 Sep 29 11:21 gofmt -> /opt/hostedtoolcache/go/1.15.15/x64/bin/gofmt      
+lrwxrwxrwx 1 root        root               22 Sep 29 11:05 sbt -> /usr/share/sbt/bin/sbt           
+lrwxrwxrwx 1 root        root               31 Sep 29 11:05 julia -> /usr/local/julia1.6.3/bin/julia                    
+lrwxrwxrwx 1 root        root               21 Sep 29 10:55 f77 -> /etc/alternatives/f77            
+lrwxrwxrwx 1 root        root               21 Sep 29 10:55 f95 -> /etc/alternatives/f95            
+-rwxr-xr-x 1 root        root          2262733 Sep 29 10:51 composer            
+lrwxrwxrwx 1 root        root               25 Sep 29 10:49 php-cgi -> /etc/alternatives/php-cgi    
+lrwxrwxrwx 1 root        root               24 Sep 29 10:49 phpdbg -> /etc/alternatives/phpdbg      
+lrwxrwxrwx 1 root        root               24 Sep 29 10:49 phpize -> /etc/alternatives/phpize      
+lrwxrwxrwx 1 root        root               28 Sep 29 10:49 php-config -> /etc/alternatives/php-config

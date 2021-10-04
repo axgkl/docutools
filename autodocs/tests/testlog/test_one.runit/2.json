@@ -1,0 +1,10 @@
+{"line": 9, "fn_func": "tests__test_cfl.mod.py.9.func.py", "fn_mod": "tests__test_cfl.mod.py", "dt": 9.775161743164062e-06, "name": "say_hello", "mod": "tests.test_cfl"}
+-
+{
+    "name": "joe"
+}
+-
+[
+    "greeted",
+    "joe"
+]

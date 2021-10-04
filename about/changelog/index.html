@@ -1,0 +1,1513 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation Building Tools">
+      
+      
+      
+      
+        <link rel="canonical" href="https://AXGKl.github.io/docutools/about/changelog/">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>Changelog - docutools</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.cb6bc1d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.39b8e14a.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#546d78">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../lcd/lp/css/xterm.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="blue-grey" data-md-color-accent="deep-purple">
+      
+        <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#git-changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://AXGKl.github.io/docutools/" title="docutools" class="md-header-nav__button md-logo" aria-label="docutools">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 2l-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            docutools
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/AXGKl/docutools/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    docutools
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Overview
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../install/" class="md-tabs__link">
+      Installation
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../features/" class="md-tabs__link">
+        Features
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../coverage/" class="md-tabs__link md-tabs__link--active">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://AXGKl.github.io/docutools/" title="docutools" class="md-nav__button md-logo" aria-label="docutools">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 2l-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5z"/></svg>
+
+    </a>
+    docutools
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/AXGKl/docutools/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    docutools
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        Features
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Features" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" >
+      
+      <label class="md-nav__link" for="nav-3-2">
+        Plugins
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Plugins" data-md-level="2">
+        <label class="md-nav__title" for="nav-3-2">
+          <span class="md-nav__icon md-icon"></span>
+          Plugins
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/blacklist/" class="md-nav__link">
+        Blacklist
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/find-pages/" class="md-nav__link">
+        Find Pages
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2-3" type="checkbox" id="nav-3-2-3" >
+      
+      <label class="md-nav__link" for="nav-3-2-3">
+        Literate Programming (LP)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Literate Programming (LP)" data-md-level="3">
+        <label class="md-nav__title" for="nav-3-2-3">
+          <span class="md-nav__icon md-icon"></span>
+          Literate Programming (LP)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/syntax/" class="md-nav__link">
+        Syntax
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/parameters/" class="md-nav__link">
+        Parameters
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/sessions/" class="md-nav__link">
+        Sessions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/eval/" class="md-nav__link">
+        Evaluation and Caching
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/async/" class="md-nav__link">
+        Async Fetching
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2-4" type="checkbox" id="nav-3-2-4" >
+      
+      <label class="md-nav__link" for="nav-3-2-4">
+        LP Shell Mode
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="LP Shell Mode" data-md-level="3">
+        <label class="md-nav__title" for="nav-3-2-4">
+          <span class="md-nav__icon md-icon"></span>
+          LP Shell Mode
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/bash/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/bash/sessions/" class="md-nav__link">
+        Tmux Sessions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/xterm/" class="md-nav__link">
+        Terminal Colors
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/examples/" class="md-nav__link">
+        Examples
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/tips/" class="md-nav__link">
+        Tips
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2-5" type="checkbox" id="nav-3-2-5" >
+      
+      <label class="md-nav__link" for="nav-3-2-5">
+        LP Python Mode
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="LP Python Mode" data-md-level="3">
+        <label class="md-nav__title" for="nav-3-2-5">
+          <span class="md-nav__icon md-icon"></span>
+          LP Python Mode
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/_index/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/_tech/" class="md-nav__link">
+        Mechanics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/call_flow_logging/" class="md-nav__link">
+        call_flow_logging
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/comments/" class="md-nav__link">
+        comments
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/cov_report/" class="md-nav__link">
+        cov_report
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/data_table/" class="md-nav__link">
+        data_table
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/diag_diagram/" class="md-nav__link">
+        diag_diagram
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/git_changelog/" class="md-nav__link">
+        git_changelog
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/mpl_pyplot/" class="md-nav__link">
+        mpl_pyplot
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/project_dependencies/" class="md-nav__link">
+        project_dependencies
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/python/screenshot/" class="md-nav__link">
+        screenshot
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2-6" type="checkbox" id="nav-3-2-6" >
+      
+      <label class="md-nav__link" for="nav-3-2-6">
+        Other LP Plugins
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Other LP Plugins" data-md-level="3">
+        <label class="md-nav__title" for="nav-3-2-6">
+          <span class="md-nav__icon md-icon"></span>
+          Other LP Plugins
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/_index/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/_tech/" class="md-nav__link">
+        Mechanics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/chart/" class="md-nav__link">
+        chart
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/chartist/" class="md-nav__link">
+        chartist
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/column/" class="md-nav__link">
+        column
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/drawio/" class="md-nav__link">
+        drawio
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/flowchart/" class="md-nav__link">
+        flowchart
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/kroki/" class="md-nav__link">
+        kroki
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/lightbox/" class="md-nav__link">
+        lightbox
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/make_badges/" class="md-nav__link">
+        make_badges
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/make_file/" class="md-nav__link">
+        make_file
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/markmap/" class="md-nav__link">
+        markmap
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/mermaid/" class="md-nav__link">
+        mermaid
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/show_file/" class="md-nav__link">
+        show_file
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/lp/plugs/show_src/" class="md-nav__link">
+        show_src
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/md-replace/" class="md-nav__link">
+        Markdown Replace
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/page-tree/" class="md-nav__link">
+        Page Tree
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/stats/" class="md-nav__link">
+        Stats
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/third/" class="md-nav__link">
+        Third Party
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/termcasts/" class="md-nav__link">
+        TermCasts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/darkmode/" class="md-nav__link">
+        Darkmode
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      
+      <label class="md-nav__link" for="nav-4">
+        About
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coverage/" class="md-nav__link">
+        Coverage
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        Contributing
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Changelog
+      </a>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits/" class="md-nav__link">
+        Credits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../todo/" class="md-nav__link">
+        TODO
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="git://$repos/docutools/docs/about/changelog.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="git-changelog">Git Changelog<a class="headerlink" href="#git-changelog" title="Permanent link">¤</a></h1>
+<h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">¤</a></h1>
+<p>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>.</p>
+<p>This project adheres to <a href="http://calver.org">CalVer Versioning</a> <img alt="" src="https://img.shields.io/badge/calver-YYYY.M.D-22bfda.svg" />.</p>
+<h2 id="2021931"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.9.31">2021.9.31</a><a class="headerlink" href="#2021931" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.9.30...2021.9.31">Compare with 2021.9.30</a></small></p>
+<h3 id="bug-fixes">Bug Fixes<a class="headerlink" href="#bug-fixes" title="Permanent link">¤</a></h3>
+<ul>
+<li>Links (<a href="https://github.com/AXGKl/docutools/commit/76975cec44ede0608d6852d6000efb5fccaf4819">76975ce</a> by Gunther Klessinger).</li>
+<li>Fixed backrefs (<a href="https://github.com/AXGKl/docutools/commit/4a030f0087f9ecc807ca79070c977d521b96140c">4a030f0</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021930"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.9.30">2021.9.30</a><a class="headerlink" href="#2021930" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.9.14...2021.9.30">Compare with 2021.9.14</a></small></p>
+<h3 id="bug-fixes_1">Bug Fixes<a class="headerlink" href="#bug-fixes_1" title="Permanent link">¤</a></h3>
+<ul>
+<li>Changelog link removed (<a href="https://github.com/AXGKl/docutools/commit/e86f9a2d41e8b81f3e9d880795cc0b2d5db3c180">e86f9a2</a> by Gunther Klessinger).</li>
+<li>Adapted call flow logging dest (<a href="https://github.com/AXGKl/docutools/commit/c7b352f618b884825bf85fb256e3cc1fb477f679">c7b352f</a> by Gunther Klessinger).</li>
+<li>Make the import style pyplugs re-called at mkdocs serve (<a href="https://github.com/AXGKl/docutools/commit/cdc2935ac4d0fd11b44e72012f6d41b627f32a72">cdc2935</a> by Gunther Klessinger).</li>
+<li>Test cfl (<a href="https://github.com/AXGKl/docutools/commit/ad3585b59f06eade4f96232d0e1dadd0ad9def1b">ad3585b</a> by Gunther Klessinger).</li>
+<li>Tooltip cfl (<a href="https://github.com/AXGKl/docutools/commit/b1bfc47370f37c14b7a61ebbcdb501acf8703c23">b1bfc47</a> by Gunther Klessinger).</li>
+<li>Restrict lightbox (<a href="https://github.com/AXGKl/docutools/commit/4081a11dc71006de8b09645cc9b5428e6cece67c">4081a11</a> by Gunther Klessinger).</li>
+<li>Eval off for git changelog (<a href="https://github.com/AXGKl/docutools/commit/615fcb34638565289ac8dcc89eb5ea595a1b2e48">615fcb3</a> by Gunther Klessinger).</li>
+<li>Copying docs svgs over to site dir (<a href="https://github.com/AXGKl/docutools/commit/8a1951b9af1703ac48562ad7f4585a36d837deb0">8a1951b</a> by Gunther Klessinger).</li>
+<li>Formatting with line break for fenced code (<a href="https://github.com/AXGKl/docutools/commit/aa18f3666b2d5161036ad48eb7a8f84024ed118e">aa18f36</a> by Gunther Klessinger).</li>
+<li>Fixed slow find-pages, now at 0.02s (<a href="https://github.com/AXGKl/docutools/commit/df9da8b54e40c702fa05e79917318bb814b30892">df9da8b</a> by Gunther Klessinger).</li>
+<li>Renaming of lazy loading, true fixed (<a href="https://github.com/AXGKl/docutools/commit/03a00c2e1dc4398b8951f46635d43670f762d8e8">03a00c2</a> by Gunther Klessinger).</li>
+<li>Fixed a few js problems with github latencies (<a href="https://github.com/AXGKl/docutools/commit/422324c7baf7ce3ce1ced70f864a485c3f326e0c">422324c</a> by Gunther Klessinger).</li>
+<li>Fenced code closing and support for fmt to show code in lp:python (<a href="https://github.com/AXGKl/docutools/commit/256164ebf04755c70b7d5a2bc3d0b16b6719b1cb">256164e</a> by Gunther Klessinger).</li>
+<li>Better generalized images support (<a href="https://github.com/AXGKl/docutools/commit/238234f2211631ab7c6af16929105376898c89d9">238234f</a> by Gunther Klessinger).</li>
+<li>Clf call in matplotlib (<a href="https://github.com/AXGKl/docutools/commit/5c6ac623cb295e757203b8dc0b191112e1f0b4a3">5c6ac62</a> by Gunther Klessinger).</li>
+<li>Assets are not evaluated at nav.instant (<a href="https://github.com/AXGKl/docutools/commit/bd962571ab5fabb0de96e56c0e0bd11532cb45fc">bd96257</a> by Gunther Klessinger).</li>
+</ul>
+<h3 id="features">Features<a class="headerlink" href="#features" title="Permanent link">¤</a></h3>
+<ul>
+<li>Call flow logging (first iteration) (<a href="https://github.com/AXGKl/docutools/commit/0b4d0a5c13687f2cf95cac87fd9f0eee9c9d4c4d">0b4d0a5</a> by Gunther Klessinger).</li>
+<li>Columns (<a href="https://github.com/AXGKl/docutools/commit/98c35b587ebbcd535ef73903f6cc131573729b0f">98c35b5</a> by Gunther Klessinger).</li>
+<li>Docs more examples (<a href="https://github.com/AXGKl/docutools/commit/e50b109c2c44901482badb40b5f9fcc19d05de8b">e50b109</a> by Gunther Klessinger).</li>
+<li>Splash page (<a href="https://github.com/AXGKl/docutools/commit/de218447504d6e3c45826a5f94fcad2c3b09fca8">de21844</a> by Gunther Klessinger).</li>
+<li>More module level params (<a href="https://github.com/AXGKl/docutools/commit/83a49a02ba446b35673af241b8847fb4865c2419">83a49a0</a> by Gunther Klessinger).</li>
+<li>Screenshot tool for urls (<a href="https://github.com/AXGKl/docutools/commit/33b8c0c6bcce9b8d244b497b15b12b7c4cd63535">33b8c0c</a> by Gunther Klessinger).</li>
+<li>Screenshot for urls via headless browser (<a href="https://github.com/AXGKl/docutools/commit/9e9fc2ad806880543fbac03bd8643326a8fa0be9">9e9fc2a</a> by Gunther Klessinger).</li>
+<li>Data tables (<a href="https://github.com/AXGKl/docutools/commit/786aa9b22bcc7c532d5a5d01d4cf77e4496daf66">786aa9b</a> by Gunther Klessinger).</li>
+<li>Diagrams cluster charts (<a href="https://github.com/AXGKl/docutools/commit/3de7f4821978846f82fbeaa341d7838674d9cd4a">3de7f48</a> by Gunther Klessinger).</li>
+<li>Diagrams, more addsrc formats (<a href="https://github.com/AXGKl/docutools/commit/db24536e42ea07666d2ee6389ba3195de56b0442">db24536</a> by Gunther Klessinger).</li>
+<li>Flowchart and chart.js (<a href="https://github.com/AXGKl/docutools/commit/f61559c4216cd9b0e6c43c40d0f0bb1cdf17d3b1">f61559c</a> by Gunther Klessinger).</li>
+<li>Lightbox cursor (<a href="https://github.com/AXGKl/docutools/commit/b6388144315e20a18727c1897abb6ac9898dae3f">b638814</a> by Gunther Klessinger).</li>
+<li>Lightbox and lp short form (<a href="https://github.com/AXGKl/docutools/commit/e552a8d24bbb808b53bbf455da34caf2dc59b49a">e552a8d</a> by Gunther Klessinger).</li>
+<li>Kroki support and conventional src header arg (<a href="https://github.com/AXGKl/docutools/commit/34b8bfb0b45a7dde678b6b636f0758eb78e6d5df">34b8bfb</a> by Gunther Klessinger).</li>
+<li>Start lc on all page switches in nav.instant (<a href="https://github.com/AXGKl/docutools/commit/b75619d37f9782f0d2576326e306bc81e5d4cdcf">b75619d</a> by Gunther Klessinger).</li>
+<li>Generalized image creation support (<a href="https://github.com/AXGKl/docutools/commit/cb633029d3d84e99afe8e889a40dcae4d485e01d">cb63302</a> by Gunther Klessinger).</li>
+<li>Extended python lp plug functionality for matplotlib (<a href="https://github.com/AXGKl/docutools/commit/b394209996a0eea04921aaf69ffb6500e5bc2bbf">b394209</a> by Gunther Klessinger).</li>
+<li>Markmap (<a href="https://github.com/AXGKl/docutools/commit/f179ad452c77cee2fb7f77866c28b2e002355d3b">f179ad4</a> by Gunther Klessinger).</li>
+<li>Add page assets now declarative for easy js driven plugins (<a href="https://github.com/AXGKl/docutools/commit/2fe1a6148448ffb2f726b58381e2f8848dbf2be8">2fe1a61</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021914"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.9.14">2021.9.14</a><a class="headerlink" href="#2021914" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.9.07...2021.9.14">Compare with 2021.9.07</a></small></p>
+<h3 id="bug-fixes_2">Bug Fixes<a class="headerlink" href="#bug-fixes_2" title="Permanent link">¤</a></h3>
+<ul>
+<li>No local link (<a href="https://github.com/AXGKl/docutools/commit/ca3f17f674700407a2c8e12735ebe3adc58ac876">ca3f17f</a> by Gunther Klessinger).</li>
+<li>Adapting to new assertion exception (<a href="https://github.com/AXGKl/docutools/commit/b70471e5f190162e586ef841b03f5c99beb390a4">b70471e</a> by Gunther Klessinger).</li>
+<li>Always waiting a bit after send-keys (<a href="https://github.com/AXGKl/docutools/commit/655dee49bc8e9c9c8da986a32d021ad1e3b563f5">655dee4</a> by Gunther Klessinger).</li>
+<li>Not sending comments with send-keys (<a href="https://github.com/AXGKl/docutools/commit/ef5ddf0c79c56b2fa1f1228303955b192bb2287c">ef5ddf0</a> by Gunther Klessinger).</li>
+<li>Ubuntu aliases /bin/sh not to bash =-&gt; export -f not functioning there (<a href="https://github.com/AXGKl/docutools/commit/31b0aed6d8a41cf5aa19e256e75e1ce57c6936cf">31b0aed</a> by Gunther Klessinger).</li>
+<li>Copying with pip pkg format "upgrade" (<a href="https://github.com/AXGKl/docutools/commit/b1d7267c5a0c06220ec1d25ae77ec791c9a8d2cb">b1d7267</a> by Gunther Klessinger).</li>
+<li>No patching on no serve (<a href="https://github.com/AXGKl/docutools/commit/7a7b3145a4f87dda79c2d115f4811c6dd5c4b780">7a7b314</a> by Gunther Klessinger).</li>
+<li>Sane values for badges res (<a href="https://github.com/AXGKl/docutools/commit/e31105635b7cac36e69f10393b3368971df1c80c">e311056</a> by Gunther Klessinger).</li>
+</ul>
+<h3 id="features_1">Features<a class="headerlink" href="#features_1" title="Permanent link">¤</a></h3>
+<ul>
+<li>Always writing the configured site_url at badge site urls (<a href="https://github.com/AXGKl/docutools/commit/f1684a94f3aef6f821c3054fa9c94976114a06e6">f1684a9</a> by Gunther Klessinger).</li>
+<li>Mermaid as lp plug (<a href="https://github.com/AXGKl/docutools/commit/841d35590b95f8649c8c58f242db30c4cba2f8bf">841d355</a> by Gunther Klessinger).</li>
+<li>$ignore_err feature to lift errors to warnings (<a href="https://github.com/AXGKl/docutools/commit/ec78a6ba8b067c4ba3e777d153333cf7ea1e74a3">ec78a6b</a> by Gunther Klessinger).</li>
+<li>Coverage plugin with backrefs (<a href="https://github.com/AXGKl/docutools/commit/0ba7c7d11f114be5462f4991eceb368bc31bca04">0ba7c7d</a> by Gunther Klessinger).</li>
+<li>Page tree with arbitrary theme settings (<a href="https://github.com/AXGKl/docutools/commit/b65dc67ff818b29f2b43787e9d110a7943466350">b65dc67</a> by Gunther Klessinger).</li>
+<li>Res files formatted (<a href="https://github.com/AXGKl/docutools/commit/c86c1c507a8b84862915123c6374ebcda49dac1c">c86c1c5</a> by Gunther Klessinger).</li>
+<li>Docs badge (<a href="https://github.com/AXGKl/docutools/commit/40689b4386139c8f3959de5468da39c58a2f2b49">40689b4</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021907"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.9.07">2021.9.07</a><a class="headerlink" href="#2021907" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.8.10...2021.9.07">Compare with 2021.8.10</a></small></p>
+<h3 id="bug-fixes_3">Bug Fixes<a class="headerlink" href="#bug-fixes_3" title="Permanent link">¤</a></h3>
+<ul>
+<li>Waiting for async completion (<a href="https://github.com/AXGKl/docutools/commit/1c069f0077a7e2f8ddc4fdf13225070381916460">1c069f0</a> by Gunther Klessinger).</li>
+<li>Nailing bash, ubuntu had dash which cannot even echo -e (<a href="https://github.com/AXGKl/docutools/commit/e1075d22ca4b1d9263be6c90e77e10a4c10ef5be">e1075d2</a> by Gunther Klessinger).</li>
+<li>Nested lp in fc fix (<a href="https://github.com/AXGKl/docutools/commit/67bd8b455d33fa90ac11a8c222bb7fb3dee5b582">67bd8b4</a> by Gunther Klessinger).</li>
+<li>Setting have skips when there is only a skip_this (<a href="https://github.com/AXGKl/docutools/commit/16083f4279ac93a6e21878144e908bac4ae68a10">16083f4</a> by Gunther Klessinger).</li>
+</ul>
+<h3 id="features_2">Features<a class="headerlink" href="#features_2" title="Permanent link">¤</a></h3>
+<ul>
+<li>Writes readme (<a href="https://github.com/AXGKl/docutools/commit/41d034ed7188ed7dd313c28e237ab53d08651887">41d034e</a> by Gunther Klessinger).</li>
+<li>Badges lp plugin (<a href="https://github.com/AXGKl/docutools/commit/5a564b25e4a25bed2846dbceafd88175212408fa">5a564b2</a> by Gunther Klessinger).</li>
+<li>Plugins for lp (<a href="https://github.com/AXGKl/docutools/commit/8c253e679442b7f3605f08379080cc3a617cd7fd">8c253e6</a> by Gunther Klessinger).</li>
+<li>Show_src mode for lp (<a href="https://github.com/AXGKl/docutools/commit/1a9ff6022e60fe3445a231f85409bdf954027e43">1a9ff60</a> by Gunther Klessinger).</li>
+<li>Find_pages (<a href="https://github.com/AXGKl/docutools/commit/6de17d2ceb06a7c76ada0bbf4d52efa893069b00">6de17d2</a> by Gunther Klessinger).</li>
+<li>Make ds stops existing server and starts in fg (<a href="https://github.com/AXGKl/docutools/commit/ca28cf9e518b48198ca333fb7a588a85d551457e">ca28cf9</a> by Gunther Klessinger).</li>
+<li>Removed a ton of deps (devapps) (<a href="https://github.com/AXGKl/docutools/commit/ad01f3193b4057a793147f64708d56f070eb8f87">ad01f31</a> by Gunther Klessinger).</li>
+<li>Removed a ton of dependencies (<a href="https://github.com/AXGKl/docutools/commit/f35c7d8ab88a366ffbcad4da2eb68d32771a3858">f35c7d8</a> by Gunther Klessinger).</li>
+<li>Stats zeros filter (<a href="https://github.com/AXGKl/docutools/commit/dd6cbe7882ec8b4a0f33ebfee3688d0ef4ab69a1">dd6cbe7</a> by Gunther Klessinger).</li>
+<li>All output to stderr (<a href="https://github.com/AXGKl/docutools/commit/ba99ee76166aa8a235c3b75fb7901a82f8c44141">ba99ee7</a> by Gunther Klessinger).</li>
+<li>Blacklist as mkd plugin (<a href="https://github.com/AXGKl/docutools/commit/1de5900fd562b498e69b5954c16bb015fc60d606">1de5900</a> by Gunther Klessinger).</li>
+<li>Credits page as mkd plugin (<a href="https://github.com/AXGKl/docutools/commit/345626e04c651a67ef2d0d0aac5335128e46b413">345626e</a> by Gunther Klessinger).</li>
+<li>Literate programming now as mkd plugin (<a href="https://github.com/AXGKl/docutools/commit/7d9c8cbf411146918f48baeed9587bffde32c9b2">7d9c8cb</a> by Gunther Klessinger).</li>
+<li>Wrapper for all hooks, setting log context and adding timings (<a href="https://github.com/AXGKl/docutools/commit/eda7ec84180179339bcb797b644bfc6d26d1e1aa">eda7ec8</a> by Gunther Klessinger).</li>
+<li>Stats mkd plugin (<a href="https://github.com/AXGKl/docutools/commit/e241c7e9664ec6d49e91c88854393ef153b4c44e">e241c7e</a> by Gunther Klessinger).</li>
+<li>Md-replace mkd plugin (<a href="https://github.com/AXGKl/docutools/commit/3885d5d2302d58dcb2ce4a1907f64f4d3c6d2050">3885d5d</a> by Gunther Klessinger).</li>
+<li>Changelog as mkd plugin (<a href="https://github.com/AXGKl/docutools/commit/8e1943a711060f7122366be7db2fd96ae3fcdfdd">8e1943a</a> by Gunther Klessinger).</li>
+<li>Page tree now completed (<a href="https://github.com/AXGKl/docutools/commit/15226b56cd75e99ef898868b84b4ab4b68be835a">15226b5</a> by Gunther Klessinger).</li>
+<li>Breakcrumb (first success) (<a href="https://github.com/AXGKl/docutools/commit/7b6c2aba488f212fe4ad69aa3a60e422b8b0f7ed">7b6c2ab</a> by Gunther Klessinger).</li>
+<li>New "make system", first plugin (<a href="https://github.com/AXGKl/docutools/commit/c10fb84addeae211fa3afdc0b5cef37f6909ad7a">c10fb84</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021810"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.8.10">2021.8.10</a><a class="headerlink" href="#2021810" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.8.9...2021.8.10">Compare with 2021.8.9</a></small></p>
+<h3 id="features_3">Features<a class="headerlink" href="#features_3" title="Permanent link">¤</a></h3>
+<ul>
+<li>Checking blacklisted words (<a href="https://github.com/AXGKl/docutools/commit/e7d258f481cf7600ba85f55dfc38f8082c01eaf6">e7d258f</a> by Gunther Klessinger).</li>
+<li>Checking skip syntax and allowing commented lines w/o expect= (<a href="https://github.com/AXGKl/docutools/commit/51af4a1457efe5d706aba869981a9760bee0ec93">51af4a1</a> by Gunther Klessinger).</li>
+<li>Page level header args with <code>page lp foo=bar</code> (<a href="https://github.com/AXGKl/docutools/commit/71ec316fa01ae66c42566e7c8baf13e2089e708d">71ec316</a> by Gunther Klessinger).</li>
+<li>Supporting make_file and read_file also with session (<a href="https://github.com/AXGKl/docutools/commit/45610976eb7b67aa191b61e8fa38d3e0d1b7bc9e">4561097</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="202189"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.8.9">2021.8.9</a><a class="headerlink" href="#202189" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.8.3...2021.8.9">Compare with 2021.8.3</a></small></p>
+<h3 id="bug-fixes_4">Bug Fixes<a class="headerlink" href="#bug-fixes_4" title="Permanent link">¤</a></h3>
+<ul>
+<li>Json detection save for ini files (<a href="https://github.com/AXGKl/docutools/commit/c11fac7ac3440bcdf5e5a72ef143e56c63b8b227">c11fac7</a> by Gunther Klessinger).</li>
+<li>No locks when skipped (<a href="https://github.com/AXGKl/docutools/commit/67490ad7364795fa287f18ad615e33470e2b9a7c">67490ad</a> by Gunther Klessinger).</li>
+</ul>
+<h3 id="features_4">Features<a class="headerlink" href="#features_4" title="Permanent link">¤</a></h3>
+<ul>
+<li>Better stats (<a href="https://github.com/AXGKl/docutools/commit/3aa56ae55f60467dd2e5f68fd6ad988a4584430f">3aa56ae</a> by Gunther Klessinger).</li>
+<li>Skips, transfer of old eval results, allowing md change w/o re-eval (<a href="https://github.com/AXGKl/docutools/commit/2f14dea6287a0245b2ae3e8a76b12a0682233751">2f14dea</a> by Gunther Klessinger).</li>
+<li>Skips, transfer of old eval runs, allowing change of .lp w/o eval (<a href="https://github.com/AXGKl/docutools/commit/e38d075912b565704f1d2b94990f69a94bd0f8cf">e38d075</a> by Gunther Klessinger).</li>
+<li>Lock_page header argument (<a href="https://github.com/AXGKl/docutools/commit/7f7215947f783b1c2bd2521160112ffcf2e66898">7f72159</a> by Gunther Klessinger).</li>
+<li>Skips (<a href="https://github.com/AXGKl/docutools/commit/85abb232eaae2bded3c4bdb9349885f50132de5e">85abb23</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="202183"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.8.3">2021.8.3</a><a class="headerlink" href="#202183" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.8.2...2021.8.3">Compare with 2021.8.2</a></small></p>
+<h3 id="bug-fixes_5">Bug Fixes<a class="headerlink" href="#bug-fixes_5" title="Permanent link">¤</a></h3>
+<ul>
+<li>Sending hex to tmux (<a href="https://github.com/AXGKl/docutools/commit/2091804a647ae454cc4cc36520c098b60491fdfc">2091804</a> by Gunther Klessinger).</li>
+</ul>
+<h3 id="features_5">Features<a class="headerlink" href="#features_5" title="Permanent link">¤</a></h3>
+<ul>
+<li>Source code block output (<a href="https://github.com/AXGKl/docutools/commit/29839171becf4f48f696bf5a9c2881a319ac1880">2983917</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="202182"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.8.2">2021.8.2</a><a class="headerlink" href="#202182" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.7.31...2021.8.2">Compare with 2021.7.31</a></small></p>
+<h3 id="bug-fixes_6">Bug Fixes<a class="headerlink" href="#bug-fixes_6" title="Permanent link">¤</a></h3>
+<ul>
+<li>Dt vars now also in tmux, as promised (<a href="https://github.com/AXGKl/docutools/commit/540d33b1ceb4e12bb59c42f9995b837397d1a612">540d33b</a> by Gunther Klessinger).</li>
+</ul>
+<h3 id="features_6">Features<a class="headerlink" href="#features_6" title="Permanent link">¤</a></h3>
+<ul>
+<li>Multiline handling much smarter, with '&gt; ' indicator line starts (<a href="https://github.com/AXGKl/docutools/commit/e8d60f9f825ddff8232abcd5916384db5ffb181f">e8d60f9</a> by Gunther Klessinger).</li>
+<li>Better error msg on failing cwd (<a href="https://github.com/AXGKl/docutools/commit/8c7382a36cf5126cfec3ef1ac0560647def38121">8c7382a</a> by Gunther Klessinger).</li>
+<li>Dt_... environ vars in all lit prog exec envs (<a href="https://github.com/AXGKl/docutools/commit/966c323aa751d1de1b03e9231050306f2492b37c">966c323</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021731"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.7.31">2021.7.31</a><a class="headerlink" href="#2021731" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.7.30...2021.7.31">Compare with 2021.7.30</a></small></p>
+<h3 id="features_7">Features<a class="headerlink" href="#features_7" title="Permanent link">¤</a></h3>
+<ul>
+<li>Pycond based assertion matching (<a href="https://github.com/AXGKl/docutools/commit/2a185ecbf423b1603f92947b17287b3066fa64ba">2a185ec</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021730"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.7.30">2021.7.30</a><a class="headerlink" href="#2021730" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.7.29...2021.7.30">Compare with 2021.7.29</a></small></p>
+<h3 id="features_8">Features<a class="headerlink" href="#features_8" title="Permanent link">¤</a></h3>
+<ul>
+<li>Better assertions, also lists and also for any mode, not only sessions (<a href="https://github.com/AXGKl/docutools/commit/6610a7ac32166d4087b6355af68b4939a18941d5">6610a7a</a> by Gunther Klessinger).</li>
+<li>Assert and asserts on all lp modes (<a href="https://github.com/AXGKl/docutools/commit/ed7b449935db8d880fc3af0551b4d024ee385fb8">ed7b449</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021729"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.7.29">2021.7.29</a><a class="headerlink" href="#2021729" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.7.28...2021.7.29">Compare with 2021.7.28</a></small></p>
+<h3 id="bug-fixes_7">Bug Fixes<a class="headerlink" href="#bug-fixes_7" title="Permanent link">¤</a></h3>
+<ul>
+<li>Erradicating changlog rendering problems when using macros plugin (<a href="https://github.com/AXGKl/docutools/commit/c4cb37987b0992d640c41f8679cc505dc182af65">c4cb379</a> by Gunther Klessinger).</li>
+</ul>
+<h3 id="features_9">Features<a class="headerlink" href="#features_9" title="Permanent link">¤</a></h3>
+<ul>
+<li>Xterm.css (<a href="https://github.com/AXGKl/docutools/commit/735a6dd320d889e8373bb4f7c020cb93e02ef7bf">735a6dd</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021728"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.7.28">2021.7.28</a><a class="headerlink" href="#2021728" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.7.27...2021.7.28">Compare with 2021.7.27</a></small></p>
+<h3 id="features_10">Features<a class="headerlink" href="#features_10" title="Permanent link">¤</a></h3>
+<ul>
+<li>Mkdocs makros (<a href="https://github.com/AXGKl/docutools/commit/f4b63f45862a50ca9459239140b66e2f45da9ce9">f4b63f4</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021727"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.7.27">2021.7.27</a><a class="headerlink" href="#2021727" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.5.14...2021.7.27">Compare with 2021.5.14</a></small></p>
+<h3 id="features_11">Features<a class="headerlink" href="#features_11" title="Permanent link">¤</a></h3>
+<ul>
+<li>Lcd feature (<a href="https://github.com/AXGKl/docutools/commit/0803f03b8ba71f47e405be9160a0406cf9901793">0803f03</a> by Gunther Klessinger).</li>
+</ul>
+<h2 id="2021514"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.5.14">2021.5.14</a><a class="headerlink" href="#2021514" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.5.13...2021.5.14">Compare with 2021.5.13</a></small></p>
+<h2 id="2021513"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.5.13">2021.5.13</a><a class="headerlink" href="#2021513" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.5.12...2021.5.13">Compare with 2021.5.12</a></small></p>
+<h2 id="2021512"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.5.12">2021.5.12</a><a class="headerlink" href="#2021512" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/2021.5.11...2021.5.12">Compare with 2021.5.11</a></small></p>
+<h2 id="2021511"><a href="https://github.com/AXGKl/docutools/releases/tag/2021.5.11">2021.5.11</a><a class="headerlink" href="#2021511" title="Permanent link">¤</a></h2>
+<p><small><a href="https://github.com/AXGKl/docutools/compare/73480690fe3d737f5c5420547ead7279e52e5431...2021.5.11">Compare with first commit</a></small></p>
+<hr/>
+
+<script>typeof start_lc === "undefined" ? 0 : start_lc() </script>
+
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-nav">
+    <nav
+      class="md-footer-nav__inner md-grid"
+      aria-label="Footer"
+    >
+      
+      <a
+        href="../contributing/"
+        class="md-footer-nav__link md-footer-nav__link--prev"
+        rel="prev"
+      >
+        <div class="md-footer-nav__button md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </div>
+        <div class="md-footer-nav__title">
+          <div class="md-ellipsis">
+            <span class="md-footer-nav__direction">
+              Previous
+            </span>
+            Contributing
+          </div>
+        </div>
+      </a>
+       
+      <div class="md-footer-nav__link md-footer-nav__link--next">
+        
+        <div class="overlay_block">
+          <a
+            class="overlay_link"
+            href="../credits/"
+            rel="next"
+          ></a>
+          <div class="overlay_inner">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                
+                <a href="/docutools/about/coverage/">
+                  
+                  <small>About</small> - 
+                </a>
+                
+                <a href="/docutools/about/credits/">
+                   Credits 
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: -2rem" class="md-footer-nav__button md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+        </div>
+      </div>
+      <style>
+        .overlay_block {
+          position: relative;
+          width: 100%;
+        }
+        .overlay_block .overlay_link {
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+        }
+        .overlay_block .overlay_inner {
+          position: relative;
+          pointer-events: none;
+          z-index: 1;
+        }
+        .overlay_block .overlay_inner a {
+          pointer-events: all;
+        }
+      </style>
+      
+    </nav>
+  </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        <div class="md-footer-copyright__highlight">Copyright &copy; 2021 Gunther Klessinger
+</div>
+         Made with
+        <a
+          href="https://squidfunk.github.io/mkdocs-material/"
+          target="_blank"
+          rel="noopener"
+        >
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/AXGKl" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.instant', 'navigation.top', 'navigation.tabs', 'navigation.sections', 'toc.integrate'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../../lcd/lp/javascript/tablesort.min.js"></script>
+      
+        <script src="../../lcd/lp/javascript/tables.js"></script>
+      
+        <script src="../../lcd/lp/javascript/fa_all.js"></script>
+      
+        <script src="../../lcd/lp/javascript/xterm-addon-fit.min.js"></script>
+      
+        <script src="../../lcd/lp/javascript/lc.js"></script>
+      
+        <script src="../../lcd/lp/javascript/xterm-addon-search.min.js"></script>
+      
+        <script src="../../lcd/lp/javascript/Rx.min.js"></script>
+      
+        <script src="../../lcd/lp/javascript/xterm.4.9.0.min.js"></script>
+      
+    
+  </body>
+</html>

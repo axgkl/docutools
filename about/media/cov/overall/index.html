@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Overall Coverage</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Overall Coverage:
+            <span class="pc_cov">62.38%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">b</span>
+        <span class="key">p</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>4265</td>
+                <td>1502</td>
+                <td>0</td>
+                <td>1646</td>
+                <td>241</td>
+                <td class="right" data-ratio="3687 5911">62.38%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc___init___py.html">src/lcdoc/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 2">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_call_flows_auto_docs_py.html">src/lcdoc/call_flows/auto_docs.py</a></td>
+                <td>76</td>
+                <td>58</td>
+                <td>0</td>
+                <td>22</td>
+                <td>1</td>
+                <td class="right" data-ratio="19 98">19.39%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_call_flows_call_flow_charting_py.html">src/lcdoc/call_flows/call_flow_charting.py</a></td>
+                <td>86</td>
+                <td>80</td>
+                <td>0</td>
+                <td>28</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 114">5.26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_call_flows_call_flow_logging_py.html">src/lcdoc/call_flows/call_flow_logging.py</a></td>
+                <td>355</td>
+                <td>247</td>
+                <td>0</td>
+                <td>135</td>
+                <td>12</td>
+                <td class="right" data-ratio="139 490">28.37%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_call_flows_markdown_py.html">src/lcdoc/call_flows/markdown.py</a></td>
+                <td>89</td>
+                <td>67</td>
+                <td>0</td>
+                <td>54</td>
+                <td>7</td>
+                <td class="right" data-ratio="29 143">20.28%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_call_flows_viz_sequence_py.html">src/lcdoc/call_flows/viz_sequence.py</a></td>
+                <td>23</td>
+                <td>0</td>
+                <td>0</td>
+                <td>24</td>
+                <td>12</td>
+                <td class="right" data-ratio="35 47">74.47%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_const_py.html">src/lcdoc/const.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_log_py.html">src/lcdoc/log.py</a></td>
+                <td>86</td>
+                <td>19</td>
+                <td>0</td>
+                <td>43</td>
+                <td>8</td>
+                <td class="right" data-ratio="97 129">75.19%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_lp_py.html">src/lcdoc/lp.py</a></td>
+                <td>482</td>
+                <td>81</td>
+                <td>0</td>
+                <td>222</td>
+                <td>31</td>
+                <td class="right" data-ratio="566 704">80.40%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_lp_session_py.html">src/lcdoc/lp_session.py</a></td>
+                <td>188</td>
+                <td>40</td>
+                <td>0</td>
+                <td>62</td>
+                <td>10</td>
+                <td class="right" data-ratio="194 250">77.60%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_blacklist___init___py.html">src/lcdoc/mkdocs/blacklist/__init__.py</a></td>
+                <td>27</td>
+                <td>17</td>
+                <td>0</td>
+                <td>12</td>
+                <td>1</td>
+                <td class="right" data-ratio="11 39">28.21%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_find_pages___init___py.html">src/lcdoc/mkdocs/find_pages/__init__.py</a></td>
+                <td>117</td>
+                <td>10</td>
+                <td>0</td>
+                <td>61</td>
+                <td>7</td>
+                <td class="right" data-ratio="159 178">89.33%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp___init___py.html">src/lcdoc/mkdocs/lp/__init__.py</a></td>
+                <td>549</td>
+                <td>125</td>
+                <td>0</td>
+                <td>238</td>
+                <td>30</td>
+                <td class="right" data-ratio="586 787">74.46%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_bash___init___py.html">src/lcdoc/mkdocs/lp/plugs/bash/__init__.py</a></td>
+                <td>40</td>
+                <td>4</td>
+                <td>0</td>
+                <td>18</td>
+                <td>3</td>
+                <td class="right" data-ratio="51 58">87.93%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_chart___init___py.html">src/lcdoc/mkdocs/lp/plugs/chart/__init__.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 13">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_chartist___init___py.html">src/lcdoc/mkdocs/lp/plugs/chartist/__init__.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="27 27">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_column___init___py.html">src/lcdoc/mkdocs/lp/plugs/column/__init__.py</a></td>
+                <td>34</td>
+                <td>1</td>
+                <td>0</td>
+                <td>8</td>
+                <td>4</td>
+                <td class="right" data-ratio="37 42">88.10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_drawio___init___py.html">src/lcdoc/mkdocs/lp/plugs/drawio/__init__.py</a></td>
+                <td>35</td>
+                <td>9</td>
+                <td>0</td>
+                <td>12</td>
+                <td>6</td>
+                <td class="right" data-ratio="32 47">68.09%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_flowchart___init___py.html">src/lcdoc/mkdocs/lp/plugs/flowchart/__init__.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 17">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_kroki___init___py.html">src/lcdoc/mkdocs/lp/plugs/kroki/__init__.py</a></td>
+                <td>54</td>
+                <td>9</td>
+                <td>0</td>
+                <td>20</td>
+                <td>7</td>
+                <td class="right" data-ratio="56 74">75.68%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_lightbox___init___py.html">src/lcdoc/mkdocs/lp/plugs/lightbox/__init__.py</a></td>
+                <td>37</td>
+                <td>1</td>
+                <td>0</td>
+                <td>10</td>
+                <td>2</td>
+                <td class="right" data-ratio="44 47">93.62%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_make_badges___init___py.html">src/lcdoc/mkdocs/lp/plugs/make_badges/__init__.py</a></td>
+                <td>91</td>
+                <td>7</td>
+                <td>0</td>
+                <td>22</td>
+                <td>2</td>
+                <td class="right" data-ratio="104 113">92.04%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_make_file___init___py.html">src/lcdoc/mkdocs/lp/plugs/make_file/__init__.py</a></td>
+                <td>41</td>
+                <td>10</td>
+                <td>0</td>
+                <td>12</td>
+                <td>3</td>
+                <td class="right" data-ratio="38 53">71.70%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_markmap___init___py.html">src/lcdoc/mkdocs/lp/plugs/markmap/__init__.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_mermaid___init___py.html">src/lcdoc/mkdocs/lp/plugs/mermaid/__init__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 10">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/__init__.py</a></td>
+                <td>135</td>
+                <td>2</td>
+                <td>0</td>
+                <td>65</td>
+                <td>6</td>
+                <td class="right" data-ratio="192 200">96.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_call_flow_logging___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/call_flow_logging/__init__.py</a></td>
+                <td>47</td>
+                <td>21</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="28 51">54.90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_comments___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/comments/__init__.py</a></td>
+                <td>29</td>
+                <td>2</td>
+                <td>0</td>
+                <td>4</td>
+                <td>1</td>
+                <td class="right" data-ratio="30 33">90.91%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_cov_report___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/cov_report/__init__.py</a></td>
+                <td>40</td>
+                <td>14</td>
+                <td>0</td>
+                <td>10</td>
+                <td>3</td>
+                <td class="right" data-ratio="31 50">62.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_data_table___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/data_table/__init__.py</a></td>
+                <td>42</td>
+                <td>6</td>
+                <td>0</td>
+                <td>20</td>
+                <td>5</td>
+                <td class="right" data-ratio="45 62">72.58%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_diag_diagram___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/diag_diagram/__init__.py</a></td>
+                <td>47</td>
+                <td>30</td>
+                <td>0</td>
+                <td>10</td>
+                <td>1</td>
+                <td class="right" data-ratio="18 57">31.58%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_git_changelog___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/git_changelog/__init__.py</a></td>
+                <td>63</td>
+                <td>49</td>
+                <td>0</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 79">17.72%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_mpl_pyplot___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/mpl_pyplot/__init__.py</a></td>
+                <td>12</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 12">66.67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_project_dependencies___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/project_dependencies/__init__.py</a></td>
+                <td>76</td>
+                <td>1</td>
+                <td>0</td>
+                <td>40</td>
+                <td>1</td>
+                <td class="right" data-ratio="114 116">98.28%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_python_pyplugs_screenshot___init___py.html">src/lcdoc/mkdocs/lp/plugs/python/pyplugs/screenshot/__init__.py</a></td>
+                <td>64</td>
+                <td>47</td>
+                <td>0</td>
+                <td>14</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 78">21.79%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_show_file___init___py.html">src/lcdoc/mkdocs/lp/plugs/show_file/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 2">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_lp_plugs_show_src___init___py.html">src/lcdoc/mkdocs/lp/plugs/show_src/__init__.py</a></td>
+                <td>47</td>
+                <td>5</td>
+                <td>0</td>
+                <td>16</td>
+                <td>6</td>
+                <td class="right" data-ratio="52 63">82.54%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_markdown_py.html">src/lcdoc/mkdocs/markdown.py</a></td>
+                <td>58</td>
+                <td>23</td>
+                <td>0</td>
+                <td>42</td>
+                <td>10</td>
+                <td class="right" data-ratio="55 100">55.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_page_tree___init___py.html">src/lcdoc/mkdocs/page_tree/__init__.py</a></td>
+                <td>43</td>
+                <td>7</td>
+                <td>0</td>
+                <td>12</td>
+                <td>3</td>
+                <td class="right" data-ratio="45 55">81.82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_replace___init___py.html">src/lcdoc/mkdocs/replace/__init__.py</a></td>
+                <td>98</td>
+                <td>17</td>
+                <td>0</td>
+                <td>48</td>
+                <td>8</td>
+                <td class="right" data-ratio="119 146">81.51%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_stats___init___py.html">src/lcdoc/mkdocs/stats/__init__.py</a></td>
+                <td>118</td>
+                <td>100</td>
+                <td>0</td>
+                <td>78</td>
+                <td>0</td>
+                <td class="right" data-ratio="20 196">10.20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_mkdocs_tools_py.html">src/lcdoc/mkdocs/tools.py</a></td>
+                <td>255</td>
+                <td>35</td>
+                <td>0</td>
+                <td>112</td>
+                <td>23</td>
+                <td class="right" data-ratio="303 367">82.56%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_lcdoc_tools_py.html">src/lcdoc/tools.py</a></td>
+                <td>217</td>
+                <td>70</td>
+                <td>0</td>
+                <td>108</td>
+                <td>25</td>
+                <td class="right" data-ratio="196 325">60.31%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="tests___init___py.html">tests/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100.00%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="tests_test_cfl_py.html">tests/test_cfl.py</a></td>
+                <td>16</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 16">81.25%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="tests_test_lp_py.html">tests/test_lp.py</a></td>
+                <td>370</td>
+                <td>281</td>
+                <td>0</td>
+                <td>30</td>
+                <td>3</td>
+                <td class="right" data-ratio="92 400">23.00%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.5</a>,
+            created at 2021-10-04 21:03 +0000
+        </p>
+    </div>
+</div>
+</body>
+</html>
